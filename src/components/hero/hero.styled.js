@@ -27,7 +27,7 @@ export const FloatingBtn = styled(MessageIcon)`
     position: fixed;
     bottom: 55px;
     right: 20px;
-    z-index: 10;
+    z-index: 1;
     color: grey;
     font-size: 50px;
     cursor: pointer;
