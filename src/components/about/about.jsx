@@ -1,23 +1,20 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import info from '../../data/data.json';
+import about from '../../data/about.json';
 import { StyledBox, StyledContainer, StyledImage, Styledtext } from './about';
 
 const About = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    setData(info);
+    setData(about);
   }, [data]);
   return (
     <StyledContainer>
       <StyledBox>
         {data.map((item) => (
-          <div style={{ padding: 0 }} key={item.id}>
-            <Styledtext>{item.description1}</Styledtext>
-            <Styledtext>{item.description2}</Styledtext>
-            <Styledtext>{item.description3}</Styledtext>
-            <Styledtext>{item.description4}</Styledtext>
+          <div key={item.id}>
+            <Styledtext>{item.description}</Styledtext>
           </div>
         ))}
       </StyledBox>
