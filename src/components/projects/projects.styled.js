@@ -22,7 +22,13 @@ export const Paragraph = styled.p`
 `;
 export const Image = styled.img`
   width: 250px;
-  height: 120px;
+  height: 160px;
+  margin: 0 auto;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
 `;
 
 export const CardWrapper = styled.div`

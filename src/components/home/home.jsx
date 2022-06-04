@@ -10,7 +10,7 @@ const Home = () => {
   }, [data]);
 
   return (
-    <>
+    <div>
       <Hero />
       <ContainerText>
         {data.map((item) => (
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         ))}
       </ContainerText>
-    </>
+    </div>
   );
 };
 
