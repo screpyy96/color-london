@@ -62,7 +62,7 @@ export const ContactLink = styled(Link)`
   @media (max-width: 500px) {
     font-size: 15px;
     position: absolute;
-    bottom: 25%;
+    bottom: 10%;
     left: 35%;
   }
 `;

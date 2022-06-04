@@ -25,7 +25,7 @@ export const ImgBtn = styled(Link)`
 export const FloatingBtn = styled(MessageIcon)`
   && {
     position: fixed;
-    bottom: 50;
+    bottom: 55px;
     right: 20px;
     z-index: 10;
     color: grey;
@@ -38,7 +38,10 @@ export const FloatingBtn = styled(MessageIcon)`
     }
     @media (max-width: 500px) {
       font-size: 35px;
-      color: #eece1a;
+      position: fixed;
+      bottom: 93px;
+      right: 20px;
+      color: #eece1a
 
 
   }
@@ -73,7 +76,7 @@ export const HeroText = styled.div`
   font-size: 2rem;
   @media (max-width: 500px) {
     font-size: 20px;
-    top: 40%;
+    top: 45%;
     left: 20%;
   }
 `;
@@ -97,8 +100,8 @@ export const PhoneCall = styled.a`
   @media (max-width: 500px) {
     font-size: 15px;
     position: absolute;
-    top: 76%;
-    left: 35%;
+    top: 83%;
+    left: 68%;
     height: 30px;
     /* background-color: white; */
   }
